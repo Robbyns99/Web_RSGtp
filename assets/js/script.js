@@ -90,7 +90,7 @@ function hideShow()
     else
     {
         div.style.display = 'none';
-        display = 0;
+        display = 1;
     }
 }
 
