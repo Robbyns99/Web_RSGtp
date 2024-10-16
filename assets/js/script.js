@@ -77,6 +77,12 @@ const revealElementOnScroll = function () {
     }
 }
 
+$(function () {
+    $('#invisible').click(function() {
+        $('#invisible').toggleClass("show");
+    });
+});
+
 window.addEventListener("scroll", revealElementOnScroll);
 
 window.addEventListener("load", revealElementOnScroll);
