@@ -87,6 +87,7 @@ const revealButton = document.getElementById("revealButton");
                 revealButton.style.display = "none";
             } else {
                 hiddenContent.style.display = "none";
+                revealButton.style.display = "none";
             }
         });
 
