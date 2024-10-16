@@ -181,9 +181,6 @@ body.nav-actve { overflow: hidden; }
 
 .section { padding-block: var(--section-padding); }
 
-.hide {display:none;}
-.show {display:block;}
-
 .has-before,
 .has-after {
   position: relative;
