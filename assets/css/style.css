@@ -774,7 +774,9 @@ body.nav-actve { overflow: hidden; }
 .footer-bottom .social-link:is(:hover, :focus-visible) { background-color: var(--verdigris); }
 
 
-
+#hiddenContent {
+  display: none;
+}
 
 
 /*-----------------------------------*\
