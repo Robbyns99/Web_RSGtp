@@ -77,6 +77,23 @@ const revealElementOnScroll = function () {
     }
 }
 
+var div = document.getElementById('about-content');
+var display = 0;
+
+function hideShow()
+{
+    if(display == 1)
+    {
+        div.style.display = 'block';
+        display = 0;
+    }
+    else
+    {
+        div.style.display = 'none';
+        display = 0;
+    }
+}
+
 window.addEventListener("scroll", revealElementOnScroll);
 
 window.addEventListener("load", revealElementOnScroll);
