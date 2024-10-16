@@ -82,10 +82,10 @@ let isClicked = true;
 
 let showOrHide = function(){
     if(isClicked){
-        divContainer.btn = 'block';
+        divContainer.tab-btn = 'block';
         isClicked = false;
     }else{
-        divContainer.btn = 'none';
+        divContainer.tab-btn = 'none';
         isClicked = true;
     }
 }
