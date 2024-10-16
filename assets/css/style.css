@@ -776,6 +776,7 @@ body.nav-actve { overflow: hidden; }
 
 .hiddenContent {
   display: none;
+  margin: auto;
 }
 
 
