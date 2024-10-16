@@ -77,6 +77,18 @@ const revealElementOnScroll = function () {
     }
 }
 
+const revealButton = document.getElementById("revealButton");
+        const hiddenContent = document.getElementById("hiddenContent");
+
+        revealButton.addEventListener("click", () => {
+            // Toggle the display of the hidden content
+            if (hiddenContent.style.display === "none") {
+                hiddenContent.style.display = "block";
+            } else {
+                hiddenContent.style.display = "none";
+            }
+        });
+
 window.addEventListener("scroll", revealElementOnScroll);
 
 window.addEventListener("load", revealElementOnScroll);
