@@ -77,7 +77,7 @@ const revealElementOnScroll = function () {
     }
 }
 
-var div = document.getElementById('about-content');
+var div = document.getElementById('section-text1');
 var display = 0;
 
 function hideShow()
