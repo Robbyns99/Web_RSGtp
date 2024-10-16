@@ -31,11 +31,9 @@
   --white_a20: hsla(0, 0%, 100%, 0.2);
   --white_a10: hsla(0, 0%, 100%, 0.1);
   --black: hsl(0, 0%, 0%);
-
   /**
    * typography
   */
-
   --ff-oswald: 'Oswald', sans-serif;
   --ff-rubik: 'Rubik', sans-serif;
 
