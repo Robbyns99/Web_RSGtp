@@ -84,7 +84,7 @@ const revealButton = document.getElementById("revealButton");
             // Toggle the display of the hidden content
             if (hiddenContent.style.display === "none") {
                 hiddenContent.style.display = "block";
-                revealButton.style.tab-btn.active = "none";
+                revealButton.style.display = "none";
             } else {
                 hiddenContent.style.display = "none";
             }
