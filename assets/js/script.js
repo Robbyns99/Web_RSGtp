@@ -77,16 +77,20 @@ const revealElementOnScroll = function () {
     }
 }
 
-const revealButton = document.querySelector("[revealButton]");
-const hiddenContent = document.querySelector("[hiddenContent]");
+const revealButtons = document.querySelectorAll(".revealButton");
+const hiddenContents = document.querySelectorAll(".hiddenContent");
 
-        revealButton.addEventListener("click", () => {
-            // Toggle the display of the hidden content
-            if (hiddenContent.style.display === "none") {
-                hiddenContent.style.display = "block";
-            } else {
-                hiddenContent.style.display = "none";
-            }
+        revealButtons.forEach((button, index) => {
+            button.addEventListener("click", () => {
+                // Toggle the display of the corresponding hidden content
+                if (hiddenContents[index].style.display === "none") {
+                    hiddenContents[index].style.display = "block";
+                    button.textContent = "Hide " + (index + 1); // Change button text to "Hide"
+                } else {
+                    hiddenContents[index].style.display = "none";
+                    button.textContent = "Reveal " + (index + 1); // Change button text back to "Reveal"
+                }
+            });
         });
 
 window.addEventListener("scroll", revealElementOnScroll);
