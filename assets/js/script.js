@@ -77,15 +77,15 @@ const revealElementOnScroll = function () {
     }
 }
 
-const divContainer = document.querySelector('#Visi');
+const divContainer = document.querySelector('[#Visi]');
 let isClicked = true;
 
 let showOrHide = function(){
     if(isClicked){
-        divContainer.style.display = 'block';
+        divContainer.btn = 'block';
         isClicked = false;
     }else{
-        divContainer.style.display = 'none';
+        divContainer.btn = 'none';
         isClicked = true;
     }
 }
