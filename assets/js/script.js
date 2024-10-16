@@ -77,8 +77,8 @@ const revealElementOnScroll = function () {
     }
 }
 
-const revealButton = document.querySelectorAll("revealButton");
-const hiddenContent = document.querySelectorAll("hiddenContent");
+const revealButton = document.querySelectorAll("[revealButton]");
+const hiddenContent = document.querySelectorAll("[hiddenContent]");
 
         revealButton.addEventListener("click", () => {
             // Toggle the display of the hidden content
