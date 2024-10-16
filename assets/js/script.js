@@ -78,16 +78,14 @@ const revealElementOnScroll = function () {
 }
 
 const revealButton = document.getElementById("revealButton");
-        const hiddenContent = document.getElementById("hiddenContent");
+const hiddenContent = document.getElementById("hiddenContent");
 
         revealButton.addEventListener("click", () => {
             // Toggle the display of the hidden content
             if (hiddenContent.style.display === "none") {
                 hiddenContent.style.display = "block";
-                revealButton.textContent = "Visi";
             } else {
                 hiddenContent.style.display = "none";
-                revealButton.textContent = "Visi";
             }
         });
 
