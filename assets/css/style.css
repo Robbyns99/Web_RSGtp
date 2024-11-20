@@ -296,7 +296,7 @@ body.nav-actve { overflow: hidden; }
   top: 0;
   left: 0;
   width: 100%;
-  padding-block: 10px;
+  padding-block: 16px;
   z-index: 4;
 }
 
