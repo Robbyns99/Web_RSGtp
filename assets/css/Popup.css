@@ -1,7 +1,7 @@
 .popup {
     width: 100%;
     height: 100vh;
-    background: white;
+    background: rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(10px);
     position: fixed;
     top: 0;
@@ -21,7 +21,7 @@
     /* max-width: 40%;
     height: 80%; */
     max-width: 350px;
-    background: white;
+    background: rgba(0, 0, 0, 0.8);
     backdrop-filter: blur(10px);
     box-shadow: 0 20px 40px rgba(0 0 0 / 20%);
     border-radius: 20px;
@@ -29,7 +29,7 @@
     position: relative;
     /* top: 58%;
     left: 50%; */
-    transform: translate(-50%, -50%) scale(0.25);
+    transform: translate(-50%, -50%) scale(0.25); 
     opacity: 0;
     display: flex;
     justify-content: center;
