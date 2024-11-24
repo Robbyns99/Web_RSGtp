@@ -115,7 +115,6 @@
     top: 12px;
     right: 20px;
     text-decoration: none;
-    background-color: red;
     color: white;
     font-size: 30px;
     padding: 1px 3px;
@@ -125,6 +124,7 @@
     transition: all 0.3s;
     opacity: 0.5;
     cursor: pointer;
+    transition-property: opacity;
 
 }
 
@@ -132,6 +132,7 @@
 .popup_close:active,
 .popup_close:hover  {
     color: white;
+    background-color: red;
     opacity: 1;
 }
 /*.popup {
