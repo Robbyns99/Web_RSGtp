@@ -23,6 +23,7 @@
     backdrop-filter: blur(5px);
     width: 100%;
     left: 50%;
+    top: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
