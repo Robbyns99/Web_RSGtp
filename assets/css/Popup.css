@@ -42,6 +42,22 @@
     transition: all 0.5s 0.1s;
 }
 
+.popup h1 {
+    font-size: 2.1em;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.popup h2 {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.popup p {
+    font-size: 1em;
+    margin-bottom: 30px;
+}
+
 .popup_img {
     display: flex;
     width: 20%;
@@ -56,12 +72,13 @@
     height: 100%;
 }
 
+/* TEXT KONTEN
 .popup_header{
     text-align: center;
     text-transform: uppercase;
     color: #555;
     margin-bottom: 36px;
-}
+} 
 
 .popup_header h1 {
     font-size: 30px;
@@ -74,6 +91,9 @@
     margin-bottom: 10px;
 }
 
+
+
+
 .popup_text {
     padding: 0 36px;
     line-height: 1.4;
@@ -81,7 +101,7 @@
 
 .popup_text p:not(:last-child) {
     margin-bottom: 10px;
-}
+}*/
 
 #popup:target {
     opacity: 1;
