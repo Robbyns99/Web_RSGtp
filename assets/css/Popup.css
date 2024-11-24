@@ -21,7 +21,7 @@
     position: relative;
     background: rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(5px);
-    max-width: 350px;
+    max-width: 50%;
     left: 20%;
     top: 10%;
     display: flex;
