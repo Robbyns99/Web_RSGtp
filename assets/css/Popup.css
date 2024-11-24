@@ -27,15 +27,15 @@
     border-radius: 20px;
 
     position: relative;
-    top: 58%;
-    /* left: 50%; */
+    /* top: 58%;
+    left: 50%; */
     transform: translate(-50%, -50%) scale(0.25); 
     opacity: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 20px;
+    margin: 100px;
     padding: 50px 40px;
 
 
