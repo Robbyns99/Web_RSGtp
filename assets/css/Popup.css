@@ -23,7 +23,7 @@
     max-width: 350px;
     background: rgba(0, 0, 0, 0.8);
     backdrop-filter: blur(10px);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 20px 40px rgba(0 0 0 / 20%);
     border-radius: 20px;
 
     position: relative;
