@@ -1,8 +1,8 @@
 .popup {
     width: 100%;
     height: 100vh;
-    background-color: rgba(0, 0, 0, .8);
-    backdrop-filter: blur(10px) ;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
     position: fixed;
     top: 0;
     left: 0;
@@ -18,16 +18,25 @@
 }
 
 .popup_content {
-    width: 40%;
+    max-width: 40%;
     height: 80%;
     background-color: white;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
 
     position: absolute;
     top: 58%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0.25);
     opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    padding: 50px 40px;
+
 
     transition: all 0.5s 0.1s;
 }
