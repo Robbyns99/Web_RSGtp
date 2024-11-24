@@ -128,6 +128,8 @@
 .popup_close:link,
 .popup_close:active {
     color: white;
+    opacity: 0.5;
+    cursor: pointer;
 
 }
 /*.popup {
