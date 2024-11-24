@@ -123,14 +123,16 @@
     display: inline-block;
     line-height: 1;
     transition: all 0.3s;
-}
-
-.popup_close:link,
-.popup_close:active {
-    color: white;
     opacity: 0.5;
     cursor: pointer;
 
+}
+
+.popup_close:link,
+.popup_close:active,
+.popup_close:hover  {
+    color: white;
+    opacity: 1;
 }
 /*.popup {
     z-index: 999999;
