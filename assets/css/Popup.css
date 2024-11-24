@@ -16,17 +16,17 @@
     transition: all 0.3s;
 
 }
-/* 
+
 .popup_content {
+    position: relative;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
     /* max-width: 40%;
     height: 80%;
     max-width: 350px;
-    background: rgba(0, 0, 0, 0.8);
-    backdrop-filter: blur(10px);
     box-shadow: 0 20px 40px rgba(0 0 0 / 20%);
     border-radius: 20px;
 
-    position: relative;
     /* top: 58%;
     left: 50%; 
     transform: translate(-50%, -50%) scale(0.25); 
@@ -39,8 +39,8 @@
     padding: 50px 40px;
 
 
-    transition: all 0.5s 0.1s;
-}*/
+    transition: all 0.5s 0.1s;*/
+}
 
 .popup h1 {
     font-size: 2.1em;
