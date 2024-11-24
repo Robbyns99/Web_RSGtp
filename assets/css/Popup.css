@@ -115,9 +115,10 @@
     top: 12px;
     right: 20px;
     text-decoration: none;
-    background-color: gray;
-    color: black;
+    background-color: red;
+    color: white;
     font-size: 30px;
+    padding: 3px 3px;
     display: inline-block;
     line-height: 1;
     transition: all 0.3s;
