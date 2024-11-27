@@ -8,13 +8,12 @@
     left: 0; 
 
     opacity: 0;
+    visibility: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
 
-    visibility: hidden;
     transition: all 0.3s ease;
-    transition-property: visibility;
 
 }
 
@@ -38,13 +37,9 @@
     margin: 100px;
     padding: 50px 40px;
 
-    transform: scale(0); 
+    transform: translate(-50%, -50%) scale(0.25); 
     opacity: 0;
     transition: all 0.5s 0.1s;
-}
-
-.popup.active .popup_content{
-
 }
 
 .popup h1 {
