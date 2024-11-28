@@ -17,10 +17,6 @@
     transition-property: visibility;
 }
 
-.popup.active{
-    visibility: visible;
-}
-
 .popup_content {
     position: relative;
     background: rgba(255, 255, 255, 0.8);
@@ -43,7 +39,7 @@
 }
 
 .popup.active .popup_content{
-    
+
 }
 
 .popup h1 {
