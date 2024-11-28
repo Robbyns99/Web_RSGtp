@@ -13,8 +13,12 @@
     justify-content: center;
     align-items: center;
 
-    transition: all 0.3s;
+    transition: all 0.3s ease;
+    transition-property: visibility;
+}
 
+.popup.active{
+    visibility: visible;
 }
 
 .popup_content {
@@ -36,6 +40,10 @@
     transform: translate(-50%, -50%) scale(0.25); 
     opacity: 0;
     transition: all 0.5s 0.1s;
+}
+
+.popup.active .popup_content{
+    
 }
 
 .popup h1 {
